@@ -13,5 +13,10 @@
     services.libinput.enable = true;
 
     environment.variables.EDITOR = "nvim";
+
+    programs.appimage = {
+      enable = true;
+      binfmt = true;
+    };
   };
 }
