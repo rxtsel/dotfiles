@@ -231,7 +231,7 @@
     home.file.".pi/agent/extensions/autocommit.ts".text = ''
       import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
-      const prompt = `Create semantic commits from all available changes.
+      const prompt = `Create conventional commits from all available changes.
 
       Rules:
       - Do not make one big commit by default.
@@ -247,7 +247,7 @@
       3. Group changes semantically: one bug fix, one feature, one refactor, one test update, one docs change, one dependency update, or one config/CI change.
       4. Stage only files or hunks for each group. Use \`git add <file>\` or \`git add -p\`. Do not use \`git add -A\` blindly.
       5. Verify staged diff with \`git diff --cached\` before every commit.
-      6. Commit with Conventional Commit format: \`<type>(<scope>): <summary>\`. With issue key: \`<issue-key>: <type>(<scope>): <summary>\`.
+      6. Commit with Conventional Commit format: \`<type>(<scope>): <summary>\`.
       7. Repeat until all intentional changes are committed, or unsafe/ambiguous changes remain unstaged for user decision.
       8. Finish with \`git status --short\`.
 
