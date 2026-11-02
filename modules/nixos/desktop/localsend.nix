@@ -1,7 +1,7 @@
 {...}: {
   flake.modules.nixos.localsend = {pkgs, ...}: {
-    environment.systemPackages = with pkgs; [
-      localsend
-    ];
+    programs.localsend.enable = true;
+    programs.localsend.package = pkgs.localsend;
+    programs.localsend.openFirewall = true;
   };
 }
