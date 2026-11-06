@@ -1,0 +1,17 @@
+{
+  "input": {
+    "blocklist": ["fifine_calibration_original"],
+    "plugins_order": ["rnnoise#0"],
+    "rnnoise#0": {
+      "bypass": false,
+      "input-gain": 0.0,
+      "output-gain": 0.0,
+      "enable-vad": false,
+      "vad-thres": 50.0,
+      "wet": 0.0,
+      "release": 100.0,
+      "use-standard-model": true,
+      "model-name": ""
+    }
+  }
+}

@@ -77,6 +77,7 @@
               profileCommon
               profileDev
               profileGui
+              fifineAudio
             ];
 
             home.username = user;
