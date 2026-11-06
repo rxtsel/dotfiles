@@ -12,6 +12,9 @@
     xdg.dataFile."easyeffects/input/${preset}.json".source =
       ../../../assets/audio/with_fifine_60pct_fisic_8-12cm.json;
 
+    # Adopt the enablement link even if it was created outside Home Manager.
+    xdg.configFile."systemd/user/graphical-session.target.wants/fifine-clean-audio.service".force = true;
+
     systemd.user.services.fifine-clean-audio = {
       Unit = {
         Description = "Fifine K688 noise reduction (physical gain 60pct, distance 8-12cm)";
