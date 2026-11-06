@@ -25,6 +25,8 @@
           a = "add";
           s = "status -sb";
           c = "commit -m";
+          cz = "czg";
+          czai = "czg ai";
           l = "log --pretty=format:\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\" --graph --date=relative --decorate --all";
         };
 
