@@ -88,7 +88,7 @@
 
         # Leader
         leader = {
-          key = "a";
+          key = "b";
           mods = "CTRL";
           timeout_milliseconds = 500;
         };
