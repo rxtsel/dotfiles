@@ -44,6 +44,7 @@
       python3
       bun
       wget
+      unzip
       wl-clipboard
     ];
   };
