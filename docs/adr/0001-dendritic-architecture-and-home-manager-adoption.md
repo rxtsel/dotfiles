@@ -112,7 +112,7 @@ Home Manager is adopted now, embedded in NixOS first.
 
 1. Add Home Manager flake-parts integration.
 2. Create `modules/home/` base and home profiles.
-3. Migrate low-risk user programs first (`git`, `fish`, `starship`, `ssh`, `zoxide`, `lazygit`).
+3. Migrate low-risk user programs first (`git`, `zsh`, `starship`, `ssh`, `zoxide`, `lazygit`).
 4. Migrate UI user-space modules where official HM modules exist (e.g. `waybar`, `swaync`).
 5. Keep NixOS modules focused on true system responsibilities.
 6. Keep Darwin-ready class layout documented and consistent during Linux-only phase.
