@@ -2,11 +2,10 @@
   flake.modules.homeManager.profileCommon = {
     imports = with inputs.self.modules.homeManager; [
       base
-      fish
+      zsh
       starship
       ssh
       zoxide
-      fzf
       macchina
       yazi
     ];

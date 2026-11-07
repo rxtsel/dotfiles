@@ -2,7 +2,7 @@
   flake.modules.homeManager.ghostty = {osConfig, ...}: {
     programs.ghostty = {
       enable = osConfig.my.desktop.terminal == "ghostty";
-      enableFishIntegration = true;
+      enableZshIntegration = true;
       installVimSyntax = true;
 
       settings = {
