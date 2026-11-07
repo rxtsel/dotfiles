@@ -20,6 +20,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     import-tree.url = "github:vic/import-tree";
+    neovim.url = "github:rxtsel/nvim";
     llm-agents.url = "github:numtide/llm-agents.nix";
     wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
     apple-fonts.url = "github:Lyndeno/apple-fonts.nix";
