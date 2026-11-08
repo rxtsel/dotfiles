@@ -46,6 +46,7 @@
       wget
       unzip
       wl-clipboard
+      delta
     ];
   };
 }
